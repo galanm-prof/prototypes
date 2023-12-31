@@ -19,4 +19,4 @@ The execution of the prototype requires the initialisation of an apache server. 
 the execution of xammp-control shows a control panel for starting and ending the apache server which load all documents deployed at the c:\xammp\htdocs directory (step 5).
 Once the apache server has been started, the protoype can be executing by using some of the test programs included in its src\test directory (for instance, TestSearch, TestExperiment).
 A set of java executable experiments is supplied in the directory src/experiments of the prototype. These experiments have been previously generated with the prototype. Their executions
-are allowed to compile data in a excel file also supplied in the prototype called result.xlsx
+have allowed to compile data in a excel file also supplied in the prototype called result.xlsx
