@@ -11,5 +11,12 @@ Then, (1) Download the whole project in zip format (from the button called Code)
       (4) In a temporal directory, unzip the htdocs directory by unzipping the file called htdocs.zip (using for instance winrar or 7-zip programs). 
       This step generates an unzipped htdocs directory containing all resources used by the prototype in directories such as specifications, requests,
       ontologies, modules, repositories, ... etc) 
-      (5) all resources (directories+ files) generated in (4) must be copied to the htdocs directory of the apache server (c:\xammp) previously installed 
+      (5) All resources (directories+ files) generated in (4) must be copied to the htdocs directory of the apache server (c:\xammp) previously installed 
       in your machine.
+      (6) Unzip the protoype (called proj2). Is is recommended to use an IDE such as IntelliJ IDEA or eclipse to execute it.
+# execution
+The execution of the prototype requires the initialisation of an apache server. This can be done by executing xammp-control application in c:\xammp. 
+the execution of xammp-control shows a control panel for starting and ending the apache server which load all documents deployed at the c:\xammp\htdocs directory (step 5).
+Once the apache server has been started, the protoype can be executing by using some of the test programs included in its src\test directory (for instance, TestSearch, TestExperiment).
+A set of java executable experiments is supplied in the directory src/experiments of the prototype. These experiments have been previously generated with the prototype. Their executions
+are allowed to compile data in a excel file also supplied in the prototype called result.xlsx
