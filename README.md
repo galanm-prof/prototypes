@@ -15,8 +15,8 @@ Then, (1) Download the whole project in zip format (from the button called Code)
       in your machine.
       (6) Unzip the protoype (called proj2). Is is recommended to use an IDE such as IntelliJ IDEA or eclipse to execute it.
 # execution
-The execution of the prototype requires the initialisation of an apache server. This can be done by executing xammp-control application in c:\xammp. 
-the execution of xammp-control shows a control panel for starting and ending the apache server which load all documents deployed at the c:\xammp\htdocs directory (step 5).
+The execution of the prototype requires the initialisation of the apache server located at c:\xammp. This can be done by executing xammp-control application in c:\xammp. 
+The execution of xammp-control shows a control panel for starting and ending the apache server which load all documents deployed at the c:\xammp\htdocs directory (installation, step 5).
 Once the apache server has been started, the protoype can be executing by using some of the test programs included in its src\test directory (for instance, TestSearch, TestExperiment).
 A set of java executable experiments is supplied in the directory src/experiments of the prototype. These experiments have been previously generated with the prototype. Their executions
 have allowed to compile data in a excel file also supplied in the prototype called result.xlsx
